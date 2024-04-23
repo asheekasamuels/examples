@@ -3,3 +3,15 @@ img{
     object-fit: cover;
     object-position: center;
 }
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* To remove a scrollbar */
+::-webkit-scrollbar{
+    display: none;
+}
